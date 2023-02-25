@@ -37,6 +37,7 @@ def main():
 
         try:
             if int(inputted_num) in options.keys():
+                # Call the function
                 options[int(inputted_num)](db)
             else:
                 print("Invalid option!")
